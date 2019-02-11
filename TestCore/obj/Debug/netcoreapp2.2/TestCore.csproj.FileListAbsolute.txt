@@ -11,3 +11,7 @@ D:\Private Repos\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.RazorTargetA
 D:\Private Repos\TestCore\TestCore\bin\Debug\netcoreapp2.2\TestCore.pdb
 D:\Private Repos\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.dll
 D:\Private Repos\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.pdb
+D:\Private Repos\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.csprojAssemblyReference.cache
+D:\Private Repos\TestCore\TestCore\bin\Debug\netcoreapp2.2\TestCore.Data.dll
+D:\Private Repos\TestCore\TestCore\bin\Debug\netcoreapp2.2\TestCore.Data.pdb
+D:\Private Repos\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.csproj.CopyComplete

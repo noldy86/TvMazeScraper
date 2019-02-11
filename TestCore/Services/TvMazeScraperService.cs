@@ -15,14 +15,14 @@ namespace TestCore.Services
             _httpClientFactory = httpClientFactory;
         }
 
-        public void ScrapeShowInformation()
+        public bool ScrapeShowInformation()
         {
-
+            return true;
         }
 
-        public void ScrapeCastInformation()
+        public bool ScrapeCastInformation()
         {
-
+            return true;
         }
     }
 }

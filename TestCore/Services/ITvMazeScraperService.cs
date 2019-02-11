@@ -7,8 +7,8 @@ namespace TestCore.Services
 {
     public interface ITvMazeScraperService
     {
-        void ScrapeShowInformation();
+        bool ScrapeShowInformation();
 
-        void ScrapeCastInformation();
+        bool ScrapeCastInformation();
     }
 }
