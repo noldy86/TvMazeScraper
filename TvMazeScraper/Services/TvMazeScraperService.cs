@@ -2,15 +2,12 @@
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
 using TvMazeScraper.Constants;
 using TvMazeScraper.Data;
 using TvMazeScraper.Data.Models;
-using TvMazeScraper.Constants;
 
 namespace TvMazeScraper.Services
 {
@@ -67,7 +64,6 @@ namespace TvMazeScraper.Services
         {
             var result = new List<Cast>();
 
-            //http://api.tvmaze.com/shows/1/cast
             var castClient = _httpClientFactory.CreateClient(TvMazeConstants.TvMazeCastApiEndpoint);
             var castResponse = await castClient.GetAsync($"shows/{showId}/cast");
 
