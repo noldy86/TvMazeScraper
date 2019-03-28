@@ -1,0 +1,34 @@
+D:\Private Repos\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.csproj.CoreCompileInputs.cache
+D:\Private Repos\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.AssemblyInfoInputs.cache
+D:\Private Repos\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.AssemblyInfo.cs
+D:\Private Repos\TestCore\TestCore\bin\Debug\netcoreapp2.2\TestCore.deps.json
+D:\Private Repos\TestCore\TestCore\bin\Debug\netcoreapp2.2\TestCore.runtimeconfig.json
+D:\Private Repos\TestCore\TestCore\bin\Debug\netcoreapp2.2\TestCore.runtimeconfig.dev.json
+D:\Private Repos\TestCore\TestCore\bin\Debug\netcoreapp2.2\TestCore.dll
+D:\Private Repos\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.RazorAssemblyInfo.cache
+D:\Private Repos\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.RazorAssemblyInfo.cs
+D:\Private Repos\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.RazorTargetAssemblyInfo.cache
+D:\Private Repos\TestCore\TestCore\bin\Debug\netcoreapp2.2\TestCore.pdb
+D:\Private Repos\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.dll
+D:\Private Repos\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.pdb
+D:\Private Repos\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.csprojAssemblyReference.cache
+D:\Private Repos\TestCore\TestCore\bin\Debug\netcoreapp2.2\TestCore.Data.dll
+D:\Private Repos\TestCore\TestCore\bin\Debug\netcoreapp2.2\TestCore.Data.pdb
+D:\Private Repos\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.csproj.CopyComplete
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore\bin\Debug\netcoreapp2.2\TestCore.deps.json
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore\bin\Debug\netcoreapp2.2\TestCore.runtimeconfig.json
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore\bin\Debug\netcoreapp2.2\TestCore.runtimeconfig.dev.json
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore\bin\Debug\netcoreapp2.2\TestCore.dll
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore\bin\Debug\netcoreapp2.2\TestCore.pdb
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore\bin\Debug\netcoreapp2.2\TestCore.Data.dll
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore\bin\Debug\netcoreapp2.2\TestCore.Data.pdb
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.csprojAssemblyReference.cache
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.csproj.CoreCompileInputs.cache
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.RazorAssemblyInfo.cache
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.RazorAssemblyInfo.cs
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.AssemblyInfoInputs.cache
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.AssemblyInfo.cs
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.RazorTargetAssemblyInfo.cache
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.csproj.CopyComplete
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.dll
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore\obj\Debug\netcoreapp2.2\TestCore.pdb

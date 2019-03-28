@@ -1,0 +1,25 @@
+D:\Private Repos\TestCore\TestCore.Data\bin\Debug\netcoreapp2.2\TestCore.Data.deps.json
+D:\Private Repos\TestCore\TestCore.Data\bin\Debug\netcoreapp2.2\TestCore.Data.dll
+D:\Private Repos\TestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.csproj.CoreCompileInputs.cache
+D:\Private Repos\TestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.AssemblyInfoInputs.cache
+D:\Private Repos\TestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.AssemblyInfo.cs
+D:\Private Repos\TestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.csprojAssemblyReference.cache
+D:\Private Repos\TestCore\TestCore.Data\bin\Debug\netcoreapp2.2\TestCore.Data.runtimeconfig.json
+D:\Private Repos\TestCore\TestCore.Data\bin\Debug\netcoreapp2.2\TestCore.Data.runtimeconfig.dev.json
+D:\Private Repos\TestCore\TestCore.Data\bin\Debug\netcoreapp2.2\TestCore.Data.pdb
+D:\Private Repos\TestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.dll
+D:\Private Repos\TestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.pdb
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.csproj.CoreCompileInputs.cache
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.AssemblyInfoInputs.cache
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.AssemblyInfo.cs
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.dll
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.pdb
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore.Data\bin\Debug\netcoreapp2.2\TestCore.Data.deps.json
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore.Data\bin\Debug\netcoreapp2.2\TestCore.Data.runtimeconfig.json
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore.Data\bin\Debug\netcoreapp2.2\TestCore.Data.runtimeconfig.dev.json
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore.Data\bin\Debug\netcoreapp2.2\TestCore.Data.dll
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore.Data\bin\Debug\netcoreapp2.2\TestCore.Data.pdb
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.csprojAssemblyReference.cache
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore.Data\bin\Debug\netcoreapp2.2\Newtonsoft.Json.dll
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore.Data\bin\Debug\netcoreapp2.2\Newtonsoft.Json.xml
+C:\Users\Arnold van der Drift\Documents\VC\TestCore\TestCore.Data\obj\Debug\netcoreapp2.2\TestCore.Data.csproj.CopyComplete
