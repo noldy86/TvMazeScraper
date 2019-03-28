@@ -14,7 +14,7 @@ namespace TvMazeScraper.Controllers
             this.TvMazeScraperService = tvMazeScraperService;
         }
 
-        [HttpGet]
+        [HttpPost]
         public IActionResult Scrape()
         {
             var success = TvMazeScraperService.ScrapeShowInformation();
