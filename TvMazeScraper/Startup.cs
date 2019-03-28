@@ -35,6 +35,8 @@ namespace TvMazeScraper
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            //services.Configure<TvMazeEndpointSettings>(Configuration.GetSection("TvMazeEndpointSettings"));
+
 
             services.AddDbContext<MazeDbContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
@@ -52,10 +54,11 @@ namespace TvMazeScraper
                     TimeSpan.FromSeconds(10)
                 });
 
+
             //register tvMazeScraperService            
             services.AddHttpClient(TvMazeConstants.TvMazeShowsApiEndpoint, client =>
             {
-                client.BaseAddress = new Uri(Configuration.GetValue<string>("TvMazeEndpoints.Shows"));
+                client.BaseAddress = new Uri(Configuration.GetValue<string>("TvMazeEndpointSettings:Shows"));
                 client.DefaultRequestHeaders.Add("Accept", "application/vnd.github.v3+json");
             }).AddPolicyHandler(rateLimitTvMazePolicy);
 
@@ -64,7 +67,7 @@ namespace TvMazeScraper
             //register tvMazeScraperService            
             services.AddHttpClient(TvMazeConstants.TvMazeCastApiEndpoint, client =>
             {
-                client.BaseAddress = new Uri(Configuration.GetValue<string>("TvMazeEndpoints.Cast"));
+                client.BaseAddress = new Uri(Configuration.GetValue<string>("TvMazeEndpointSettings:Cast"));
                 client.DefaultRequestHeaders.Add("Accept", "application/vnd.github.v3+json");
             }).AddPolicyHandler(rateLimitTvMazePolicy);
 
@@ -99,6 +102,8 @@ namespace TvMazeScraper
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+
 
             app.UseHttpsRedirection();
             app.UseMvc();

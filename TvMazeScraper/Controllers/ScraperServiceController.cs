@@ -20,7 +20,7 @@ namespace TvMazeScraper.Controllers
         }
 
         [HttpGet]
-        public IActionResult ShowInformation()
+        public IActionResult Scrape()
         {
             var success = TvMazeScraperService.ScrapeShowInformation();
 
@@ -30,5 +30,6 @@ namespace TvMazeScraper.Controllers
             }
             return Ok();
         }
+
     }
 }

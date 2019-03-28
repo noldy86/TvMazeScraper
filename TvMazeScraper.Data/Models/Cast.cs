@@ -18,12 +18,8 @@ namespace TvMazeScraper.Data.Models
         [JsonProperty("name")]
         public string Name { get; set; }
 
-
-        public DateTime? Birthday { get; set; }
-
         [JsonProperty("birthday")]
-        [NotMapped]
-        public string BirthdayString { get; set; }
+        public DateTime? Birthday { get; set; }
 
         [JsonIgnore]
         public int ShowId { get; set; }

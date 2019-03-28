@@ -2,9 +2,11 @@
 using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using TvMazeScraper.Constants;
 using TvMazeScraper.Data;
 using TvMazeScraper.Data.Models;
@@ -74,13 +76,21 @@ namespace TvMazeScraper.Services
             var contentJObjects = JArray.Parse(content);
 
             var persons = contentJObjects.Children()["person"];
-            List<Cast> cast = persons.Select(s => new Cast
-            {
-                CastId = s.Value<int>("id"),
-                Name = s.Value<string>("name"),
-                BirthdayString = s.Value<string>("birthday"),
 
-            }).ToList();
+            List<Cast> cast = new List<Cast>();
+
+            foreach (var person in persons)
+            {
+                var castMember = new Cast();
+                castMember.CastId = person.Value<int>("id");
+                castMember.Name = person.Value<string>("name");
+
+                if (DateTime.TryParse(person.Value<string>("birthday"), out var birthDay))
+                {
+                    castMember.Birthday = birthDay;
+                }
+                cast.Add(castMember);
+            }
 
             result.AddRange(cast);
 
