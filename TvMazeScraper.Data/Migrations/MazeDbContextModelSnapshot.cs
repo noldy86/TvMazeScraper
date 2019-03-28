@@ -19,7 +19,7 @@ namespace TvMazeScraper.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("TvMazeScraper.Data.Models.Cast", b =>
+            modelBuilder.Entity("TestCore.Data.Models.Cast", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -40,7 +40,7 @@ namespace TvMazeScraper.Data.Migrations
                     b.ToTable("Casts");
                 });
 
-            modelBuilder.Entity("TvMazeScraper.Data.Models.Show", b =>
+            modelBuilder.Entity("TestCore.Data.Models.Show", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -57,9 +57,9 @@ namespace TvMazeScraper.Data.Migrations
                     b.ToTable("Shows");
                 });
 
-            modelBuilder.Entity("TvMazeScraper.Data.Models.Cast", b =>
+            modelBuilder.Entity("TestCore.Data.Models.Cast", b =>
                 {
-                    b.HasOne("TvMazeScraper.Data.Models.Show", "Show")
+                    b.HasOne("TestCore.Data.Models.Show", "Show")
                         .WithMany("Casts")
                         .HasForeignKey("ShowId")
                         .OnDelete(DeleteBehavior.Cascade);
