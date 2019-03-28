@@ -71,28 +71,32 @@ namespace TvMazeScraper.Services
             var castClient = _httpClientFactory.CreateClient(TvMazeConstants.TvMazeCastApiEndpoint);
             var castResponse = await castClient.GetAsync($"shows/{showId}/cast");
 
-            string content = await castResponse.Content.ReadAsStringAsync();
-
-            var contentJObjects = JArray.Parse(content);
-
-            var persons = contentJObjects.Children()["person"];
-
-            List<Cast> cast = new List<Cast>();
-
-            foreach (var person in persons)
+            if (castResponse.IsSuccessStatusCode)
             {
-                var castMember = new Cast();
-                castMember.CastId = person.Value<int>("id");
-                castMember.Name = person.Value<string>("name");
+                string content = await castResponse.Content.ReadAsStringAsync();
 
-                if (DateTime.TryParse(person.Value<string>("birthday"), out var birthDay))
+                var contentJObjects = JArray.Parse(content);
+
+                var persons = contentJObjects.Children()["person"];
+
+                List<Cast> cast = new List<Cast>();
+
+                foreach (var person in persons)
                 {
-                    castMember.Birthday = birthDay;
-                }
-                cast.Add(castMember);
-            }
+                    var castMember = new Cast();
+                    castMember.CastId = person.Value<int>("id");
+                    castMember.Name = person.Value<string>("name");
 
-            result.AddRange(cast);
+                    if (DateTime.TryParse(person.Value<string>("birthday"), out var birthDay))
+                    {
+                        castMember.Birthday = birthDay;
+                    }
+
+                    cast.Add(castMember);
+                }
+
+                result.AddRange(cast);
+            }
 
             return result;
         }
